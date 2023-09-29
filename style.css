@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Gabarito:wght@400;600&family=Lexend+Deca:wght@100;200;300;400;600;800&family=Open+Sans&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(193,189,186);
+}
+
+.container {
+    box-shadow: 0 0 10px rgb(0,0,0,0.8);
+    background-color: rgb(40,49,60);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 2px;
+}
+
+.firstfloorChild {
+    height: 40px;
+    width: 340px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstfloorChild button{
+    width: 170px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: #465259;
+    transition: 0.3s;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.firstfloorChild button:hover{
+    background-color: #3d474d;
+}
+
+.mainFormChild input {
+    height: 25px;
+    margin-bottom: 30px;
+    background-color: rgb(40,49,60);
+    color: #485760;
+    border-color: #485760;
+    border-style: solid;
+    outline: none;
+}
+
+.biggestinput {
+    width: 340px;
+}
+
+.getStartedButton {
+    margin-top: 10px;
+    width: 340px;
+    height: 45px;
+    background-color: #51AE88;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.getStartedButton:hover {
+    background-color: #3d7f64;
+}
+
+#signupButton {
+    background-color: #51AE88;
+}
+
+#signupButton:hover{
+    background-color: #3d7f64;
+}
+
+.fakehr {
+    width: 340px;
+    height: 2px;
+    background-color: #485760;
+}
