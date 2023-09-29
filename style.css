@@ -41,6 +41,7 @@ body {
 
 .firstfloorChild button:hover{
     background-color: #3d474d;
+    font-weight: bold;
 }
 
 .mainFormChild input {
@@ -58,6 +59,7 @@ body {
 }
 
 .getStartedButton {
+    letter-spacing: 2px;
     margin-top: 10px;
     width: 340px;
     height: 45px;
